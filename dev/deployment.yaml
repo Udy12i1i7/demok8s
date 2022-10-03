@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: localhost:5000/demoapp
+        image: 192.168.1.51:8080/demoapp
         ports:
         - containerPort: 8080
