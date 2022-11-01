@@ -11,7 +11,7 @@ spec:
     targetRevision: HEAD
     path: dev
   destination:
-    server: 10.96.0.1
+    server: https://kubernetes.default.svc
     namespace: myapp
 
   syncPolicy:
