@@ -15,5 +15,10 @@ spec:
       containers:
       - name: myapp
         image: registry.sunteco.tech/myapp/myapp
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
         ports:
-        - containerPort: 8080
+        - containerPort: 8000
+
